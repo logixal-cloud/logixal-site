@@ -18,6 +18,22 @@ html, body {
 .text-color-a{
     color: rgba(0, 0, 0, .68) !important;
 }
+.quoted-text{
+	line-height: 25px;
+    margin-top: 26px;
+    margin-bottom: 26px;
+    font-style: italic;
+    text-align: center;
+}
+.quoted-text q:before {
+    font-size: 30px;
+    color: #ce3034;
+}
+.quoted-text q:after {
+    font-size: 30px;
+    color: #ce3034;
+    line-height: 15px;
+}
 .topMargin10{
 margin-top:10px;
 }
