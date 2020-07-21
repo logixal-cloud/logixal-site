@@ -874,6 +874,10 @@ a.ourteam.hidden-sm {
   .resize-inner-banner {
     min-height: 318px;
   }
+  /*Width and Height for Banner on Desktop devices */
+  .resize-des-inner-banner {
+    max-height: 510px;
+  }
 }
 
 @media (min-width: 1200px) {
