@@ -30,7 +30,13 @@
 ul.icon-gallery{
 	padding:20px 0;
 }
+
+ul.icon-gallery_ai{
+	padding:20px 0;
+}
+
 ul.icon-gallery li,
+ul.icon-gallery_ai li,
 ul.lines-of-business li{
 	list-style:none;
 	margin:10px 0;
@@ -44,6 +50,15 @@ ul.icon-gallery li > a{
 	position:relative;
 	color:#000;
 }
+ul.icon-gallery_ai li > a{
+	display:block;
+	border:1px solid #d3d3d3;
+	background:#fff url('../images/icons_kd/icon_blank.png') no-repeat center top/auto auto;
+	height:145px;
+	text-decoration:none;
+	position:relative;
+	color:#000;
+}
 ul.icon-gallery li > a span{
 	position:absolute;
 	width:50%;
@@ -52,6 +67,16 @@ ul.icon-gallery li > a span{
 	line-height:20px;
 	text-align:center;
 	//background:#ededed;
+	min-height:45px;
+	font-size:14px;
+}
+ul.icon-gallery_ai li > a span{
+	position:absolute;
+	width:50%;
+	left:25%;
+	bottom:5px;
+	line-height:20px;
+	text-align:center;
 	min-height:45px;
 	font-size:14px;
 }
@@ -79,6 +104,23 @@ ul.icon-gallery li > a.comego{
 }
 ul#kiko.lines-of-business li > a{
 	max-width:250px;
+}
+.des_ai {
+	width: 90px;
+    margin-left: 83px;
+    height: 70px;
+    margin-top: -5px;
+    margin-bottom: 10px;
+}
+	
+ul.icon-gallery_ai li > a.commerce{
+	background-image:url('../images/icons_kd/icon_cart.png')
+}
+ul.icon-gallery li > a.genie{
+	background-image:url('../images/icons_kd/kd_virtual.png')
+}
+ul.icon-gallery li > a.log{
+	background-image:url('../images/icons_kd/x')
 }
 ul.lines-of-business li > a{
 	display:block;
