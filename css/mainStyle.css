@@ -235,7 +235,7 @@ ul.lines-of-business li > a.lob4{
 .ors-wrapper{
 	background:url('../images/01i-TechnoFunctional.png') no-repeat top 0px left 0px/77px auto;
 	min-height:80px;
-	padding:0 0 0 64px
+	padding:0 0 0.5rem 64px
 }
 .ors-wrapper p{
 	padding: 2rem 0 0 40px;
@@ -246,6 +246,17 @@ ul.lines-of-business li > a.lob4{
 .ors3{background-image:url('../images/01f-Expertise.png');}
 .ors4{background-image:url('../images/01b-Expertise.png');}
 .ors5{background-image:url('../images/01d-Expertise.png');}
+
+.uiicon1{background-image:url('../images/11-UIUX/experts.png');}
+.uiicon2{background-image:url('../images/11-UIUX/frontend.png');}
+.uiicon3{background-image:url('../images/11-UIUX/optimization.png');}
+.uiicon4{background-image:url('../images/11-UIUX/caching.png');}
+
+.uxicon1{background-image:url('../images/11-UIUX/frontend.png');}
+.uxicon2{background-image:url('../images/11-UIUX/modernization.png');}
+.uxicon3{background-image:url('../images/11-UIUX/interaction.png');}
+.uxicon4{background-image:url('../images/11-UIUX/usability.png');}
+
 
 
 /*#index-about-us{
